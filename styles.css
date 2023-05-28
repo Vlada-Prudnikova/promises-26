@@ -1,0 +1,41 @@
+.wrap {
+  display: flex;
+}
+
+.request {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  color: crimson;
+}
+.input {
+  margin-bottom: 15px;
+}
+.input::placeholder {
+  color: crimson;
+  opacity: 0.5;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+}
+
+.start {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.currentComment {
+  border: 1px solid crimson;
+  margin: 1px 1px;
+}
